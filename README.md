@@ -1,6 +1,7 @@
 # node-email
 An sample app for sending email using NodeJS and the mailgun service.
 
+## Usage
 You need to add a config.js file to the root folder and it should have the following structure:
 
 ```javascript
@@ -17,5 +18,5 @@ module.exports = function config(){
   }
 };
 ```
-Note that the app relies on the mailgun service so you can sign up at [mailgun.com](http://www.mailgun.com) to use their api.
+Note that the app relies on the mailgun service so you can sign up at [mailgun.com](http://www.mailgun.com) to use their api. After you sign up, obtain the API and SMPT credentials and you're good to go.
 Then just run the app using the command ``` npm start ``` on the terminal and view it in the browser at ``` http://localhost:3000/ ```
