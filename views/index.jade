@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .header
+    h1= title
+    p= content
+
+  .main-contents
+    a(href="http://localhost:3000/simple-email", target="_blank") Send a simple email
+    br
+    a(href="http://localhost:3000/with-mail-gun", target="_blank") Send with the node mailgun package
+    br
+    a(href="http://localhost:3000/mg-and-emailtemplates", target="_blank") Send with the node mailgun package and email-templates
+
