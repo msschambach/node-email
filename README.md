@@ -18,5 +18,8 @@ module.exports = function config(){
   }
 };
 ```
-Note that the app relies on the mailgun service so you can sign up at [mailgun.com](http://www.mailgun.com) to use their api. After you sign up, obtain the API and SMPT credentials and you're good to go.
+Note that the app relies on the mailgun service so you can sign up at [mailgun.com](http://www.mailgun.com) to use their api. After you sign up, obtain the API and SMPT credentials.
+
+After that install all needed packages by running ``` npm install ```.
+
 Then just run the app using the command ``` npm start ``` on the terminal and view it in the browser at ``` http://localhost:3000/ ```
